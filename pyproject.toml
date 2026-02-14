@@ -1,0 +1,9 @@
+[project]
+name = "petri-example"
+version = "0.1.0"
+description = "Minimal example of the Petri alignment auditing framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "petri @ git+https://github.com/safety-research/petri",
+]
